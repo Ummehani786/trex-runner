@@ -69,6 +69,7 @@ function setup() {
 }
 
 function draw() {
+  console.log("i m checking github commands")
   //trex.debug = true;
   background(255);
   text("Score: "+ score, 500,50);
@@ -98,6 +99,7 @@ function draw() {
   else if (gameState === END) {
     gameOver.visible = true;
     restart.visible = true;
+    
     
     //set velcity of each game object to 0
     ground.velocityX = 0;
